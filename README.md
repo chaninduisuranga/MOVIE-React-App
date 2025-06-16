@@ -31,7 +31,8 @@ Browse, search, and save your favorite films with a beautiful UI and persistent 
 
 ## Screenshots
 
-> _Add screenshots of your Home page, search bar, movie cards, and favorites page here!_
+![image](https://github.com/user-attachments/assets/89fd3cc2-82f7-459c-becd-3fb8bb2c743a)
+
 
 ---
 
@@ -44,6 +45,37 @@ Browse, search, and save your favorite films with a beautiful UI and persistent 
 - **[The Movie Database (TMDB)](https://www.themoviedb.org/) or static movie data**
 
 ---
+4. **Open your browser:**  
+Visit [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal).
+
+---
+
+## Usage
+
+- Use the search bar to find movies by title.
+- Click the ❤️ button on any movie card to add/remove it from your favorites.
+- Favorites are saved automatically and persist across sessions.
+- Navigate using the navbar to view all movies or your favorites.
+
+---
+
+## Project Structure
+
+src/
+Components/
+NavBar.jsx
+MovieCard.jsx
+Context/
+MovieContext.jsx
+Pages/
+Home.jsx
+Favorite.jsx
+CSS/
+App.css
+MovieCard.css
+...
+App.jsx
+main.jsx
 
 
 # React + Vite
